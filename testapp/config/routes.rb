@@ -1,9 +1,11 @@
 Testapp::Application.routes.draw do
   #get "welcome/index"
+  #get "books/index"
+  get "test_scaffolds/index"
 
- # resources :test_scaffolds
- # resources :books
-#  root :controller => 'books', :action => 'index'  
+  #resources :test_scaffolds
+  #resources :books
+  #root :controller => 'books', :action => 'index'  
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -55,8 +57,8 @@ Testapp::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
   #root :to => 'books#index'
-   root :to => 'home#index'
-#root :to => 'test_book#index'
+   root :to => 'test_scaffolds#index'
+  #root :to => 'test_book#index'
 
 
 
