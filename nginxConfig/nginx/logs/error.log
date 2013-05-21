@@ -1,0 +1,669 @@
+[ 2013-05-21 00:46:53.3108 5195/b7407700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.5191/generation-0/request.socket
+[ 2013-05-21 00:46:53.3255 5200/b6b65700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.5191/generation-0/logging.socket
+[ 2013-05-21 00:57:56.0682 5195/b61beb40 Pool2/Spawner.h:739 ]: [App 5336 stdout] 
+[ 2013-05-21 00:57:57.7344 5195/b61beb40 Pool2/SmartSpawner.h:300 ]: Preloader for /home/cbtb/testapp2 started on PID 5336, listening on unix:/tmp/passenger.1.0.5191/generation-0/backends/preloader.5336
+[ 2013-05-21 01:35:01.3261 7767/b7448700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.7763/generation-0/request.socket
+[ 2013-05-21 01:35:01.3351 7772/b6aae700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.7763/generation-0/logging.socket
+[ 2013-05-21 01:35:04.7025 7767/b59feb40 Pool2/Spawner.h:739 ]: [App 7785 stdout] 
+[ 2013-05-21 01:35:06.3207 7767/b59feb40 Pool2/SmartSpawner.h:300 ]: Preloader for /home/cbtb/testapp started on PID 7785, listening on unix:/tmp/passenger.1.0.7763/generation-0/backends/preloader.7785
+[ 2013-05-21 02:57:33.9208 11178/b7449700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.11174/generation-0/request.socket
+[ 2013-05-21 02:57:33.9331 11183/b6b0f700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.11174/generation-0/logging.socket
+[ 2013-05-21 02:57:37.6315 11178/b59feb40 Pool2/Spawner.h:739 ]: [App 11196 stdout] 
+[ 2013-05-21 02:57:39.2761 11178/b59feb40 Pool2/SmartSpawner.h:300 ]: Preloader for /home/cbtb/testapp started on PID 11196, listening on unix:/tmp/passenger.1.0.11174/generation-0/backends/preloader.11196
+[ 2013-05-21 02:57:39.3427 11178/b5947b40 Pool2/Implementation.cpp:1156 ]: [App 11235 stdout] Hello World!
+[ 2013-05-21 02:57:39.3427 11178/b5947b40 Pool2/Implementation.cpp:1145 ]: [App 11235 stdout] 
+[ 2013-05-21 03:03:08.1977 11178/b5947b40 Pool2/Implementation.cpp:1156 ]: [App 11235 stdout] Hello World!
+[ 2013-05-21 03:03:08.1978 11178/b5947b40 Pool2/Implementation.cpp:1145 ]: [App 11235 stdout] 
+[ 2013-05-21 03:03:09.5943 11178/b5947b40 Pool2/Implementation.cpp:1156 ]: [App 11235 stdout] Hello World!
+[ 2013-05-21 03:03:09.5944 11178/b5947b40 Pool2/Implementation.cpp:1145 ]: [App 11235 stdout] 
+[ 2013-05-21 03:03:24.0973 11594/b7424700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.11590/generation-0/request.socket
+[ 2013-05-21 03:03:24.1080 11599/b6b5d700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.11590/generation-0/logging.socket
+[ 2013-05-21 03:03:27.2125 11594/b59bdb40 Pool2/Spawner.h:739 ]: [App 11612 stdout] 
+[ 2013-05-21 03:03:29.0585 11594/b59bdb40 Pool2/SmartSpawner.h:300 ]: Preloader for /home/cbtb/testapp started on PID 11612, listening on unix:/tmp/passenger.1.0.11590/generation-0/backends/preloader.11612
+[ 2013-05-21 03:08:42.7555 11997/b7402700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.11993/generation-0/request.socket
+[ 2013-05-21 03:08:42.7664 12002/b6adf700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.11993/generation-0/logging.socket
+[ 2013-05-21 03:08:46.6162 11997/b61beb40 Pool2/Spawner.h:739 ]: [App 12016 stdout] 
+[ 2013-05-21 03:08:48.4515 11997/b61beb40 Pool2/Implementation.cpp:762 ]: Could not spawn process for group /home/cbtb/testapp#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:454)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:557)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:205)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:743)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:695)
+
+[ 2013-05-21 03:08:48.4518 11997/b5fffb40 agents/HelperAgent/RequestHandler.h:1888 ]: [Client 20] Cannot checkout session. An error occured while starting up the preloader.
+Error page:
+/home/cbtb/testapp/app/models/user.rb:4: syntax error, unexpected keyword_end, expecting $end (SyntaxError)
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `block in require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:359:in `require_or_load'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:313:in `depend_on'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:439:in `block (2 levels) in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `block in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application/finisher.rb:53:in `block in <module:Finisher>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/cbtb/testapp/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `preload_app'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:127:in `<module:App>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:6:in `<module:PhusionPassenger>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:5:in `<main>'
+
+[ 2013-05-21 03:10:43.4023 12162/b744b700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.12158/generation-0/request.socket
+[ 2013-05-21 03:10:43.4117 12167/b6b58700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.12158/generation-0/logging.socket
+[ 2013-05-21 03:10:45.4162 12162/b59feb40 Pool2/Spawner.h:739 ]: [App 12180 stdout] 
+[ 2013-05-21 03:10:47.0540 12162/b59feb40 Pool2/Implementation.cpp:762 ]: Could not spawn process for group /home/cbtb/testapp#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:454)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:557)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:205)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:743)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:695)
+
+[ 2013-05-21 03:10:47.0542 12162/b61ffb40 agents/HelperAgent/RequestHandler.h:1888 ]: [Client 20] Cannot checkout session. An error occured while starting up the preloader.
+Error page:
+/home/cbtb/testapp/app/models/user.rb:4: syntax error, unexpected keyword_end, expecting $end (SyntaxError)
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `block in require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:359:in `require_or_load'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:313:in `depend_on'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:439:in `block (2 levels) in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `block in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application/finisher.rb:53:in `block in <module:Finisher>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/cbtb/testapp/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `preload_app'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:127:in `<module:App>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:6:in `<module:PhusionPassenger>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:5:in `<main>'
+
+[ 2013-05-21 03:10:57.8522 12162/b59feb40 Pool2/Spawner.h:739 ]: [App 12220 stdout] 
+[ 2013-05-21 03:10:59.4898 12162/b59feb40 Pool2/Implementation.cpp:762 ]: Could not spawn process for group /home/cbtb/testapp#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:454)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:557)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:205)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:743)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:695)
+
+[ 2013-05-21 03:10:59.4900 12162/b61ffb40 agents/HelperAgent/RequestHandler.h:1888 ]: [Client 20] Cannot checkout session. An error occured while starting up the preloader.
+Error page:
+/home/cbtb/testapp/app/models/user.rb:4: syntax error, unexpected keyword_end, expecting $end (SyntaxError)
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `block in require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:359:in `require_or_load'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:313:in `depend_on'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:439:in `block (2 levels) in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `block in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application/finisher.rb:53:in `block in <module:Finisher>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/cbtb/testapp/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `preload_app'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:127:in `<module:App>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:6:in `<module:PhusionPassenger>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:5:in `<main>'
+
+[ 2013-05-21 03:11:40.0705 12372/b742b700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.12368/generation-0/request.socket
+[ 2013-05-21 03:11:40.0807 12377/b6b34700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.12368/generation-0/logging.socket
+[ 2013-05-21 03:11:42.0842 12372/b59bdb40 Pool2/Spawner.h:739 ]: [App 12396 stdout] 
+[ 2013-05-21 03:11:43.7383 12372/b59bdb40 Pool2/Implementation.cpp:762 ]: Could not spawn process for group /home/cbtb/testapp#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:454)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:557)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:205)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:743)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:695)
+
+[ 2013-05-21 03:11:43.7385 12372/b61ffb40 agents/HelperAgent/RequestHandler.h:1888 ]: [Client 20] Cannot checkout session. An error occured while starting up the preloader.
+Error page:
+/home/cbtb/testapp/app/models/user.rb:4: syntax error, unexpected keyword_end, expecting $end (SyntaxError)
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `block in require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:359:in `require_or_load'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:313:in `depend_on'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:439:in `block (2 levels) in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `block in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application/finisher.rb:53:in `block in <module:Finisher>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/cbtb/testapp/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `preload_app'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:127:in `<module:App>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:6:in `<module:PhusionPassenger>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:5:in `<main>'
+
+[ 2013-05-21 03:14:31.5802 12372/b59bdb40 Pool2/Spawner.h:739 ]: [App 12834 stdout] 
+[ 2013-05-21 03:14:33.2040 12372/b59bdb40 Pool2/Implementation.cpp:762 ]: Could not spawn process for group /home/cbtb/testapp#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:454)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:557)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:205)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:743)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:695)
+
+[ 2013-05-21 03:14:33.2043 12372/b61ffb40 agents/HelperAgent/RequestHandler.h:1888 ]: [Client 20] Cannot checkout session. An error occured while starting up the preloader.
+Error page:
+/home/cbtb/testapp/app/models/user.rb:4: syntax error, unexpected keyword_end, expecting $end (SyntaxError)
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `block in require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:359:in `require_or_load'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:313:in `depend_on'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:439:in `block (2 levels) in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `block in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application/finisher.rb:53:in `block in <module:Finisher>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/cbtb/testapp/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `preload_app'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:127:in `<module:App>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:6:in `<module:PhusionPassenger>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:5:in `<main>'
+
+[ 2013-05-21 03:14:34.8642 12372/b59bdb40 Pool2/Spawner.h:739 ]: [App 12864 stdout] 
+[ 2013-05-21 03:14:36.4908 12372/b59bdb40 Pool2/Implementation.cpp:762 ]: Could not spawn process for group /home/cbtb/testapp#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:454)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:557)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:205)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:743)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:695)
+
+[ 2013-05-21 03:14:36.4910 12372/b61ffb40 agents/HelperAgent/RequestHandler.h:1888 ]: [Client 20] Cannot checkout session. An error occured while starting up the preloader.
+Error page:
+/home/cbtb/testapp/app/models/user.rb:4: syntax error, unexpected keyword_end, expecting $end (SyntaxError)
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `block in require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:359:in `require_or_load'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:313:in `depend_on'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:439:in `block (2 levels) in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `block in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application/finisher.rb:53:in `block in <module:Finisher>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/cbtb/testapp/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `preload_app'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:127:in `<module:App>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:6:in `<module:PhusionPassenger>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:5:in `<main>'
+
+[ 2013-05-21 03:14:40.2442 12372/b59bdb40 Pool2/Spawner.h:739 ]: [App 12894 stdout] 
+[ 2013-05-21 03:14:41.9798 12372/b59bdb40 Pool2/Implementation.cpp:762 ]: Could not spawn process for group /home/cbtb/testapp#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:454)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:557)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:205)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:743)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:695)
+
+[ 2013-05-21 03:14:41.9800 12372/b61ffb40 agents/HelperAgent/RequestHandler.h:1888 ]: [Client 20] Cannot checkout session. An error occured while starting up the preloader.
+Error page:
+/home/cbtb/testapp/app/models/user.rb:4: syntax error, unexpected keyword_end, expecting $end (SyntaxError)
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `block in require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:359:in `require_or_load'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:313:in `depend_on'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:439:in `block (2 levels) in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `block in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application/finisher.rb:53:in `block in <module:Finisher>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/cbtb/testapp/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `preload_app'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:127:in `<module:App>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:6:in `<module:PhusionPassenger>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:5:in `<main>'
+
+[ 2013-05-21 03:14:43.3847 12372/b59bdb40 Pool2/Spawner.h:739 ]: [App 12924 stdout] 
+[ 2013-05-21 03:14:45.1333 12372/b59bdb40 Pool2/Implementation.cpp:762 ]: Could not spawn process for group /home/cbtb/testapp#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:454)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:557)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:205)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:743)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:695)
+
+[ 2013-05-21 03:14:45.1335 12372/b61ffb40 agents/HelperAgent/RequestHandler.h:1888 ]: [Client 20] Cannot checkout session. An error occured while starting up the preloader.
+Error page:
+/home/cbtb/testapp/app/models/user.rb:4: syntax error, unexpected keyword_end, expecting $end (SyntaxError)
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `block in require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:359:in `require_or_load'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:313:in `depend_on'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:439:in `block (2 levels) in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `block in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application/finisher.rb:53:in `block in <module:Finisher>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/cbtb/testapp/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `preload_app'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:127:in `<module:App>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:6:in `<module:PhusionPassenger>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:5:in `<main>'
+
+[ 2013-05-21 03:14:46.1682 12372/b59bdb40 Pool2/Spawner.h:739 ]: [App 12955 stdout] 
+[ 2013-05-21 03:14:47.9179 12372/b59bdb40 Pool2/Implementation.cpp:762 ]: Could not spawn process for group /home/cbtb/testapp#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:454)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:557)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:205)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:743)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:695)
+
+[ 2013-05-21 03:14:47.9181 12372/b61ffb40 agents/HelperAgent/RequestHandler.h:1888 ]: [Client 20] Cannot checkout session. An error occured while starting up the preloader.
+Error page:
+/home/cbtb/testapp/app/models/user.rb:4: syntax error, unexpected keyword_end, expecting $end (SyntaxError)
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `block in require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:359:in `require_or_load'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:313:in `depend_on'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:439:in `block (2 levels) in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `block in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application/finisher.rb:53:in `block in <module:Finisher>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/cbtb/testapp/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `preload_app'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:127:in `<module:App>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:6:in `<module:PhusionPassenger>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:5:in `<main>'
+
+[ 2013-05-21 03:14:49.3242 12372/b59bdb40 Pool2/Spawner.h:739 ]: [App 12985 stdout] 
+[ 2013-05-21 03:14:51.0784 12372/b59bdb40 Pool2/Implementation.cpp:762 ]: Could not spawn process for group /home/cbtb/testapp#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:454)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:557)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:205)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:743)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:695)
+
+[ 2013-05-21 03:14:51.0786 12372/b61ffb40 agents/HelperAgent/RequestHandler.h:1888 ]: [Client 20] Cannot checkout session. An error occured while starting up the preloader.
+Error page:
+/home/cbtb/testapp/app/models/user.rb:4: syntax error, unexpected keyword_end, expecting $end (SyntaxError)
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `block in require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:359:in `require_or_load'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:313:in `depend_on'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:439:in `block (2 levels) in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `block in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application/finisher.rb:53:in `block in <module:Finisher>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/cbtb/testapp/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `preload_app'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:127:in `<module:App>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:6:in `<module:PhusionPassenger>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:5:in `<main>'
+
+[ 2013-05-21 03:15:18.1882 12372/b59bdb40 Pool2/Spawner.h:739 ]: [App 13017 stdout] 
+[ 2013-05-21 03:15:19.8059 12372/b59bdb40 Pool2/Implementation.cpp:762 ]: Could not spawn process for group /home/cbtb/testapp#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:454)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:557)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:205)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:743)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:695)
+
+[ 2013-05-21 03:15:19.8061 12372/b61ffb40 agents/HelperAgent/RequestHandler.h:1888 ]: [Client 20] Cannot checkout session. An error occured while starting up the preloader.
+Error page:
+/home/cbtb/testapp/app/models/user.rb:4: syntax error, unexpected keyword_end, expecting $end (SyntaxError)
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `block in require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:359:in `require_or_load'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:313:in `depend_on'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:439:in `block (2 levels) in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `block in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application/finisher.rb:53:in `block in <module:Finisher>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/cbtb/testapp/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `preload_app'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:127:in `<module:App>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:6:in `<module:PhusionPassenger>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:5:in `<main>'
+
+[ 2013-05-21 03:16:09.8096 13080/b73df700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.13076/generation-0/request.socket
+[ 2013-05-21 03:16:09.8198 13085/b6ac1700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.13076/generation-0/logging.socket
+[ 2013-05-21 03:16:11.8857 13080/b62a3b40 Pool2/Spawner.h:739 ]: [App 13098 stdout] 
+[ 2013-05-21 03:16:13.6521 13080/b62a3b40 Pool2/Implementation.cpp:762 ]: Could not spawn process for group /home/cbtb/testapp#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:454)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:557)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:205)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:743)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:695)
+
+[ 2013-05-21 03:16:13.6523 13080/b60ffb40 agents/HelperAgent/RequestHandler.h:1888 ]: [Client 20] Cannot checkout session. An error occured while starting up the preloader.
+Error page:
+/home/cbtb/testapp/app/models/user.rb:4: syntax error, unexpected keyword_end, expecting $end (SyntaxError)
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `block in require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:359:in `require_or_load'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:313:in `depend_on'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:439:in `block (2 levels) in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `block in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application/finisher.rb:53:in `block in <module:Finisher>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/cbtb/testapp/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `preload_app'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:127:in `<module:App>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:6:in `<module:PhusionPassenger>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:5:in `<main>'
+
+[ 2013-05-21 03:17:49.7202 13080/b62a3b40 Pool2/Spawner.h:739 ]: [App 13179 stdout] 
+[ 2013-05-21 03:17:51.4739 13080/b62a3b40 Pool2/Implementation.cpp:762 ]: Could not spawn process for group /home/cbtb/testapp#default: An error occured while starting up the preloader.
+     in 'void Passenger::ApplicationPool2::SmartSpawner::handleErrorResponse(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:454)
+     in 'std::string Passenger::ApplicationPool2::SmartSpawner::negotiatePreloaderStartup(Passenger::ApplicationPool2::SmartSpawner::StartupDetails&)' (SmartSpawner.h:557)
+     in 'void Passenger::ApplicationPool2::SmartSpawner::startPreloader()' (SmartSpawner.h:205)
+     in 'virtual Passenger::ApplicationPool2::ProcessPtr Passenger::ApplicationPool2::SmartSpawner::spawn(const Passenger::ApplicationPool2::Options&)' (SmartSpawner.h:743)
+     in 'void Passenger::ApplicationPool2::Group::spawnThreadRealMain(const SpawnerPtr&, const Passenger::ApplicationPool2::Options&, unsigned int)' (Implementation.cpp:695)
+
+[ 2013-05-21 03:17:51.4740 13080/b60ffb40 agents/HelperAgent/RequestHandler.h:1888 ]: [Client 20] Cannot checkout session. An error occured while starting up the preloader.
+Error page:
+undefined method `base' for ActiveRecord:Module (NoMethodError)
+  /home/cbtb/testapp/app/models/user.rb:1:in `<top (required)>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `block in require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:236:in `load_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:251:in `require'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:359:in `require_or_load'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:313:in `depend_on'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/activesupport-3.2.13/lib/active_support/dependencies.rb:225:in `require_dependency'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:439:in `block (2 levels) in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:438:in `block in eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/engine.rb:436:in `eager_load!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application/finisher.rb:53:in `block in <module:Finisher>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `instance_exec'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:30:in `run'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:55:in `block in run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `each'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/initializable.rb:54:in `run_initializers'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/application.rb:136:in `initialize!'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/railties-3.2.13/lib/rails/railtie/configurable.rb:30:in `method_missing'
+  /home/cbtb/testapp/config/environment.rb:5:in `<top (required)>'
+  config.ru:3:in `require'
+  config.ru:3:in `block in <main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `instance_eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/rack-1.4.5/lib/rack/builder.rb:51:in `initialize'
+  config.ru:1:in `new'
+  config.ru:1:in `<main>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `eval'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:82:in `preload_app'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:127:in `<module:App>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:6:in `<module:PhusionPassenger>'
+  /home/cbtb/.rvm/gems/ruby-1.9.3-p429/gems/passenger-4.0.2/helper-scripts/rack-preloader.rb:5:in `<main>'
+
+[ 2013-05-21 03:18:25.3722 13080/b62a3b40 Pool2/Spawner.h:739 ]: [App 13226 stdout] 
+[ 2013-05-21 03:18:27.1234 13080/b62a3b40 Pool2/SmartSpawner.h:300 ]: Preloader for /home/cbtb/testapp started on PID 13226, listening on unix:/tmp/passenger.1.0.13076/generation-0/backends/preloader.13226
+[ 2013-05-21 03:18:27.1920 13080/b58feb40 Pool2/Implementation.cpp:1156 ]: [App 13257 stdout] Hello World!
+[ 2013-05-21 03:18:27.1920 13080/b58feb40 Pool2/Implementation.cpp:1145 ]: [App 13257 stdout] 
+[ 2013-05-21 03:19:04.6849 13080/b58feb40 Pool2/Implementation.cpp:1156 ]: [App 13257 stdout] Hello World!
+[ 2013-05-21 03:19:04.6850 13080/b58feb40 Pool2/Implementation.cpp:1145 ]: [App 13257 stdout] 
+[ 2013-05-21 03:19:05.7405 13080/b58feb40 Pool2/Implementation.cpp:1156 ]: [App 13257 stdout] Hello World!
+[ 2013-05-21 03:19:05.7406 13080/b58feb40 Pool2/Implementation.cpp:1145 ]: [App 13257 stdout] 
+[ 2013-05-21 03:19:06.3375 13080/b58feb40 Pool2/Implementation.cpp:1156 ]: [App 13257 stdout] Hello World!
+[ 2013-05-21 03:19:06.3376 13080/b58feb40 Pool2/Implementation.cpp:1145 ]: [App 13257 stdout] 
+[ 2013-05-21 03:19:06.7819 13080/b58feb40 Pool2/Implementation.cpp:1156 ]: [App 13257 stdout] Hello World!
+[ 2013-05-21 03:19:06.7820 13080/b58feb40 Pool2/Implementation.cpp:1145 ]: [App 13257 stdout] 
+[ 2013-05-21 03:19:08.3791 13080/b58feb40 Pool2/Implementation.cpp:1156 ]: [App 13257 stdout] Hello World!
+[ 2013-05-21 03:19:08.3791 13080/b58feb40 Pool2/Implementation.cpp:1145 ]: [App 13257 stdout] 
+[ 2013-05-21 03:19:12.4650 13080/b58feb40 Pool2/Implementation.cpp:1156 ]: [App 13257 stdout] Hello World!
+[ 2013-05-21 03:19:12.4650 13080/b58feb40 Pool2/Implementation.cpp:1145 ]: [App 13257 stdout] 
+[ 2013-05-21 03:19:23.4100 13336/b74cd700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.13332/generation-0/request.socket
+[ 2013-05-21 03:19:23.4193 13341/b6af9700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.13332/generation-0/logging.socket
+[ 2013-05-21 03:19:25.6319 13336/b6391b40 Pool2/Spawner.h:739 ]: [App 13354 stdout] 
+[ 2013-05-21 03:19:27.2332 13336/b6391b40 Pool2/SmartSpawner.h:300 ]: Preloader for /home/cbtb/testapp started on PID 13354, listening on unix:/tmp/passenger.1.0.13332/generation-0/backends/preloader.13354
+[ 2013-05-21 03:20:05.0692 13456/b73ec700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.13452/generation-0/request.socket
+[ 2013-05-21 03:20:05.0787 13461/b6ac4700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.13452/generation-0/logging.socket
+[ 2013-05-21 03:20:06.8011 13456/b62b0b40 Pool2/Spawner.h:739 ]: [App 13474 stdout] 
+[ 2013-05-21 03:20:08.4014 13456/b62b0b40 Pool2/SmartSpawner.h:300 ]: Preloader for /home/cbtb/testapp started on PID 13474, listening on unix:/tmp/passenger.1.0.13452/generation-0/backends/preloader.13474
+[ 2013-05-21 03:20:26.4506 13551/b74d5700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.13547/generation-0/request.socket
+[ 2013-05-21 03:20:26.4597 13556/b6aa6700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.13547/generation-0/logging.socket
+[ 2013-05-21 03:20:28.1013 13551/b6399b40 Pool2/Spawner.h:739 ]: [App 13569 stdout] 
+[ 2013-05-21 03:20:29.6562 13551/b6399b40 Pool2/SmartSpawner.h:300 ]: Preloader for /home/cbtb/testapp started on PID 13569, listening on unix:/tmp/passenger.1.0.13547/generation-0/backends/preloader.13569
+[ 2013-05-21 03:23:10.1827 13751/b7462700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.13747/generation-0/request.socket
+[ 2013-05-21 03:23:10.1922 13756/b6b0a700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.13747/generation-0/logging.socket
+[ 2013-05-21 03:23:12.1294 13751/b59feb40 Pool2/Spawner.h:739 ]: [App 13769 stdout] 
+[ 2013-05-21 03:23:13.9395 13751/b59feb40 Pool2/SmartSpawner.h:300 ]: Preloader for /home/cbtb/testapp started on PID 13769, listening on unix:/tmp/passenger.1.0.13747/generation-0/backends/preloader.13769
+[ 2013-05-21 03:48:10.2890 15112/b74d0700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.15108/generation-0/request.socket
+[ 2013-05-21 03:48:10.2991 15117/b6ab0700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.15108/generation-0/logging.socket
+[ 2013-05-21 03:48:12.9179 15112/b6394b40 Pool2/Spawner.h:739 ]: [App 15130 stdout] 
+[ 2013-05-21 03:48:14.7143 15112/b6394b40 Pool2/SmartSpawner.h:300 ]: Preloader for /home/cbtb/testapp started on PID 15130, listening on unix:/tmp/passenger.1.0.15108/generation-0/backends/preloader.15130
+[ 2013-05-21 03:49:39.5801 15300/b7476700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.15296/generation-0/request.socket
+[ 2013-05-21 03:49:39.5900 15305/b6aab700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.15296/generation-0/logging.socket
+[ 2013-05-21 03:49:41.5538 15300/b59feb40 Pool2/Spawner.h:739 ]: [App 15318 stdout] 
+[ 2013-05-21 03:49:43.2813 15300/b59feb40 Pool2/SmartSpawner.h:300 ]: Preloader for /home/cbtb/testapp started on PID 15318, listening on unix:/tmp/passenger.1.0.15296/generation-0/backends/preloader.15318
+[ 2013-05-21 03:51:37.1847 15471/b74c3700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.15467/generation-0/request.socket
+[ 2013-05-21 03:51:37.1941 15476/b6afa700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.15467/generation-0/logging.socket
+[ 2013-05-21 03:51:39.9562 15471/b6387b40 Pool2/Spawner.h:739 ]: [App 15489 stdout] 
+[ 2013-05-21 03:51:41.7533 15471/b6387b40 Pool2/SmartSpawner.h:300 ]: Preloader for /home/cbtb/testapp started on PID 15489, listening on unix:/tmp/passenger.1.0.15467/generation-0/backends/preloader.15489
+[ 2013-05-21 03:52:18.4026 15574/b744b700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.15570/generation-0/request.socket
+[ 2013-05-21 03:52:18.4123 15579/b6ac7700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.15570/generation-0/logging.socket
+[ 2013-05-21 03:52:20.2122 15574/b59feb40 Pool2/Spawner.h:739 ]: [App 15594 stdout] 
+[ 2013-05-21 03:52:21.8918 15574/b59feb40 Pool2/SmartSpawner.h:300 ]: Preloader for /home/cbtb/testapp started on PID 15594, listening on unix:/tmp/passenger.1.0.15570/generation-0/backends/preloader.15594
+[ 2013-05-21 03:52:21.9593 15574/b5947b40 Pool2/Implementation.cpp:1156 ]: [App 15625 stdout] Hello World!
+[ 2013-05-21 03:52:21.9594 15574/b5947b40 Pool2/Implementation.cpp:1145 ]: [App 15625 stdout] 
+[ 2013-05-21 03:54:30.7938 15823/b7429700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.15819/generation-0/request.socket
+[ 2013-05-21 03:54:30.8033 15828/b6ba4700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.15819/generation-0/logging.socket
+[ 2013-05-21 03:54:32.4421 15823/b59bdb40 Pool2/Spawner.h:739 ]: [App 15842 stdout] 
+[ 2013-05-21 03:54:34.0933 15823/b59bdb40 Pool2/SmartSpawner.h:300 ]: Preloader for /home/cbtb/testapp started on PID 15842, listening on unix:/tmp/passenger.1.0.15819/generation-0/backends/preloader.15842
+[ 2013-05-21 03:58:27.3123 16078/b74da700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.16074/generation-0/request.socket
+[ 2013-05-21 03:58:27.3224 16083/b6b27700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.16074/generation-0/logging.socket
+[ 2013-05-21 03:58:29.4237 16078/b639eb40 Pool2/Spawner.h:739 ]: [App 16096 stdout] 
+[ 2013-05-21 03:58:31.0385 16078/b639eb40 Pool2/SmartSpawner.h:300 ]: Preloader for /home/cbtb/testapp started on PID 16096, listening on unix:/tmp/passenger.1.0.16074/generation-0/backends/preloader.16096
+[ 2013-05-21 03:59:51.1522 16211/b749f700 agents/HelperAgent/Main.cpp:554 ]: PassengerHelperAgent online, listening at unix:/tmp/passenger.1.0.16207/generation-0/request.socket
+[ 2013-05-21 03:59:51.1629 16216/b6ae2700 agents/LoggingAgent/Main.cpp:272 ]: PassengerLoggingAgent online, listening at unix:/tmp/passenger.1.0.16207/generation-0/logging.socket
+[ 2013-05-21 03:59:52.9031 16211/b6363b40 Pool2/Spawner.h:739 ]: [App 16229 stdout] 
+[ 2013-05-21 03:59:54.6532 16211/b6363b40 Pool2/SmartSpawner.h:300 ]: Preloader for /home/cbtb/testapp started on PID 16229, listening on unix:/tmp/passenger.1.0.16207/generation-0/backends/preloader.16229
+[ 2013-05-21 03:59:54.7224 16211/b5999b40 Pool2/Implementation.cpp:1156 ]: [App 16260 stdout] Hello World!
+[ 2013-05-21 03:59:54.7225 16211/b5999b40 Pool2/Implementation.cpp:1145 ]: [App 16260 stdout] 
+[ 2013-05-21 07:45:03.7832 16211/b5999b40 Pool2/Implementation.cpp:1156 ]: [App 16260 stdout] Hello World!
+[ 2013-05-21 07:45:03.7833 16211/b5999b40 Pool2/Implementation.cpp:1145 ]: [App 16260 stdout] 
