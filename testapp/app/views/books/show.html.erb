@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Timelogged:</b>
+  <%= @book.timeLogged %>
+</p>
+
+<p>
+  <b>Isbn:</b>
+  <%= @book.isbn %>
+</p>
+
+<p>
+  <b>Condition:</b>
+  <%= @book.condition %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @book.status %>
+</p>
+
+<p>
+  <b>Title:</b>
+  <%= @book.title %>
+</p>
+
+<p>
+  <b>Location:</b>
+  <%= @book.location %>
+</p>
+
+<p>
+  <b>Weight:</b>
+  <%= @book.weight %>
+</p>
+
+
+<%= link_to 'Edit', edit_book_path(@book) %> |
+<%= link_to 'Back', books_path %>

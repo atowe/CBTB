@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  timeLogged: 2013-05-20 20:28:44
+  isbn: 1
+  condition: MyText
+  status: MyString
+  title: MyString
+  location: MyString
+  weight: 1
+
+two:
+  timeLogged: 2013-05-20 20:28:44
+  isbn: 1
+  condition: MyText
+  status: MyString
+  title: MyString
+  location: MyString
+  weight: 1
