@@ -1,7 +1,7 @@
 Testapp::Application.routes.draw do
   #get "welcome/index"
-  #get "books/index"
-  get "test_scaffolds/index"
+  #get "book/index"
+  #get "test_scaffolds/index"
 
   #resources :test_scaffolds
   #resources :books
@@ -56,11 +56,10 @@ Testapp::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  #root :to => 'books#index'
-   root :to => 'test_scaffolds#index'
   #root :to => 'test_book#index'
-
-
+  #root :to => 'test_scaffolds#index'
+  #root :to => 'books#index'
+  root :to => 'home#index'
 
   # See how all your routes lay out with "rake routes"
 
